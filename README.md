@@ -14,10 +14,10 @@
 
 TF-DFE (Topo-Fractal Dynamic Fuzzy Ensemble) is a scalable, evidence-aware framework for classifying somatic single nucleotide variants (SNVs) as pathogenic drivers or benign passengers. The framework combines:
 
-- **Standard biological predictors** — REVEL, CADD, SIFT, PolyPhen2, GERP++, phyloP, structural/UniProt features
-- **Fractal sequence features** — Frequency Chaos Game Representation (FCGR) at k=3 and k=4 (320 dimensions)
-- **Topological features** — Persistent homology via giotto-tda (6 dimensions)
-- **Dynamic ensemble selection** — Enhanced KNORA-Eliminate strategy
+- **Standard biological predictors** - REVEL, CADD, SIFT, PolyPhen2, GERP++, phyloP, structural/UniProt features
+- **Fractal sequence features** - Frequency Chaos Game Representation (FCGR) at k=3 and k=4 (320 dimensions)
+- **Topological features** - Persistent homology via giotto-tda (6 dimensions)
+- **Dynamic ensemble selection** - Enhanced KNORA-Eliminate strategy
 
 **Final dataset:** 207,266 balanced somatic SNVs curated from dbNSFP v5.3a (GRCh37)  
 **Performance:** MCC = 0.8702 | AUROC = 0.9666 | AUPRC = 0.9768 | Accuracy = 93.48%
